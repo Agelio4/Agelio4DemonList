@@ -5,6 +5,7 @@
     "moment",
     "Carcano",
     "PrismaticHaze",
+    "CatPlanet",
     "Glide",
     "Cupid",
     "Shukufuku",
@@ -47,6 +48,5 @@
     "Actiblast",
     "Zircon",
     "DeCode",
-    "ClutterX",
-    "Motion"
+    "ClutterX"
 ]
