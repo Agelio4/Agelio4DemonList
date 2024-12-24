@@ -5,6 +5,7 @@
     "moment",
     "Carcano",
     "PrismaticHaze",
+    "ConicalDepression",
     "CatPlanet",
     "Glide",
     "Cupid",
@@ -47,6 +48,5 @@
     "CantLetVulc",
     "Collapse",
     "DeathMoon",
-    "Actiblast",
-    "Zircon"
+    "Actiblast"
 ]
