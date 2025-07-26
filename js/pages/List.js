@@ -17,6 +17,9 @@ const roleIconMap = {
 export default {
     components: { Spinner, LevelAuthors },
     template: `
+         <div class="page-background-wrapper">
+            <div class="page-background" :style="background"></div>
+        </div>
         <main v-if="loading">
             <Spinner></Spinner>
         </main>
@@ -151,6 +154,16 @@ export default {
                     : this.level.verification
             );
         },
+        background() {
+            const level = this.list?.[this.selected]?.[0];
+            if (!level || !level.id)
+                return {};
+
+            return {
+                // backgroundImage: `url('https://raw.githubusercontent.com/All-Rated-Extreme-Demon-List/Thumbnails/main/levels/full/${level.id}.webp')`
+                backgroundImage: `url('https://levelthumbs.prevter.me/thumbnail/${level.id}')`
+            };
+        }
     },
     async mounted() {
         // Hide loading spinner
