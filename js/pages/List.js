@@ -55,7 +55,7 @@ export default {
                         </li>
                         <li>
                             <div class="type-title-sm">NLW Tier</div>
-                            <p>{{ level.nlw || 'Free to Copy' }}</p>
+                            <p>{{ level.nlw || '-' }}</p>
                         </li>
                     </ul>
                     <h2>Records</h2>
