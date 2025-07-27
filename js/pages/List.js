@@ -57,6 +57,18 @@ export default {
                             <div class="type-title-sm">NLW Tier</div>
                             <p>{{ level.nlw || '-' }}</p>
                         </li>
+                        <li>
+                            <div class="type-title-sm">Attempts</div>
+                            <p>{{ level.attempts || '-' }}</p>
+                        </li>
+                        <li>
+                            <div class="type-title-sm">Worst Fail</div>
+                            <p>{{ level.worst_fail || '-' }}</p>
+                        </li>
+                        <li>
+                            <div class="type-title-sm">Date</div>
+                            <p>{{ level.date || '-' }}</p>
+                        </li>
                     </ul>
                     <h2>Records</h2>
                     <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
