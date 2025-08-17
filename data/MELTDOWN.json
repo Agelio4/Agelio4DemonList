@@ -1,0 +1,15 @@
+{
+    "id": 52527538,
+    "name": "MELTDOWN",
+    "author": "Darwin",
+    "creators": ["Darwin"],
+    "verifier": "Agelio",
+    "verification": "https://www.youtube.com/watch?v=U3oL16wDn0o",
+    "percentToQualify": "48",
+    "nlw": "Beginner",
+    "worst_fail": "75%",
+    "attempts": "1,686",
+    "date": "8/16/25",
+    "records": [
+    ]
+}
