@@ -1,0 +1,15 @@
+{
+    "id": 83340498,
+    "name": "PROTOFLICKER",
+    "author": "ewop",
+    "creators": ["Jenkins, quid, VARSE, boop, Deadlox, lucas, ZeroSR, Cdpre, xSmokes, para, Scrumpy"],
+    "verifier": "Agelio",
+    "verification": "https://www.youtube.com/watch?v=gK50LUsDUBk",
+    "percentToQualify": "67",
+    "nlw": "Hard",
+    "worst_fail": "90% x3",
+    "attempts": "8,735 (1,775 after update)",
+    "date": "8/22/25",
+    "records": [
+    ]
+}
